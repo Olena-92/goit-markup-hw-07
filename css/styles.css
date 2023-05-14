@@ -61,10 +61,15 @@ img {
 }
 /*======media======*/
 
-@media only screen and ( max-width:427px)  {
+@media only screen and (max-width: 767px) {
   .container{
-      max-width: 427px;
+    
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
+  
   .modal{
   width: 320px;
   
